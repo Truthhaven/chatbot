@@ -1,0 +1,140 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey there! Welcome to our fitness app! How can I assist you with your workout goals today?",
+          "Hello! Ready to get fit? Let me know if you need help with exercises or workouts.",
+          "Hi there! Looking for workout tips or specific exercises? I'm here to help you achieve your fitness goals.",
+          "Good day! How can I support you on your fitness journey today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later! Keep up the great work and visit us anytime for more fitness tips!",
+          "Goodbye! Don't forget to stay active and come back whenever you need workout advice.",
+          "Bye! Stay fit and healthy. Feel free to return for more exercise recommendations.",
+          "Goodbye! Keep pushing towards your fitness goals. We'll be here when you need us."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thanks a lot!"
+        ],
+        "responses": [
+          "You're welcome! I'm glad I could help with your workout plans.",
+          "Anytime! Feel free to ask if you need more fitness advice or workout recommendations.",
+          "My pleasure! Let me know if there's anything else you need help with."
+        ]
+      },
+      {
+        "tag": "workout_category",
+        "patterns": [
+          "Show me workouts for abs",
+          "I want exercises for cardio",
+          "Give me chest workouts",
+          "What are the best leg workouts?"
+        ],
+        "responses": [
+          "Here are some workouts for abs: [Get workouts for Abs]",
+          "For cardio, try these exercises: [Get workouts for Cardio]",
+          "Here are some great workouts for chest: [Get workouts for Chest]",
+          "Try these leg workouts: [Get workouts for Legs]"
+        ]
+      },
+      {
+        "tag": "workout_equipment",
+        "patterns": [
+          "Show me workouts with dumbbells",
+          "I need exercises that use kettlebells",
+          "What workouts require a gym mat?",
+          "Find workouts with no equipment"
+        ],
+        "responses": [
+          "Here are some workouts that use dumbbells: [Get workouts with Dumbbell]",
+          "Try these exercises with kettlebells: [Get workouts with Kettlebell]",
+          "These workouts require a gym mat: [Get workouts with Gym mat]",
+          "Here are workouts that don’t require any equipment: [Get workouts with no equipment]"
+        ]
+      },
+      {
+        "tag": "workout_name",
+        "patterns": [
+          "Tell me about the 2 Handed Kettlebell Swing",
+          "What is the 3D lunge warmup?",
+          "Explain the 4-count burpees",
+          "Details on Abdominal Stabilization exercise"
+        ],
+        "responses": [
+          "The 2 Handed Kettlebell Swing is: [Get details for 2 Handed Kettlebell Swing]",
+          "The 3D lunge warmup involves: [Get details for 3D lunge warmup]",
+          "The 4-count burpees are: [Get details for 4-count burpees]",
+          "The Abdominal Stabilization exercise includes: [Get details for Abdominal Stabilization]"
+        ]
+      },
+      {
+        "tag": "muscle_query",
+        "patterns": [
+          "Tell me about abs exercises",
+          "What workouts target the chest muscles?",
+          "Give me exercises for the rectus abdominis",
+          "What muscles are worked by the 4-count burpees?",
+          "Show me workouts for obliques"
+        ],
+        "responses": [
+          "Exercises for abs target the rectus abdominis. Here are some examples: [Get exercises for Abs]",
+          "Workouts for chest muscles include exercises like push-ups and chest presses. Check these out: [Get exercises for Chest]",
+          "The 4-count burpees work multiple muscle groups, including the chest, legs, and core. Here's more on it: [Get details for 4-count burpees]",
+          "For the rectus abdominis, try these workouts: [Get exercises for Rectus abdominis]",
+          "Exercises that target the obliques include side planks and Russian twists. Here’s a list: [Get exercises for Obliques]"
+        ]
+      },
+      {
+        "tag": "combined_muscles",
+        "patterns": [
+          "Show me workouts that target abs and chest",
+          "Find exercises for legs and arms",
+          "I need workouts that work both back and shoulders",
+          "What are the best exercises for abs and glutes?"
+        ],
+        "responses": [
+          "Here are some workouts that target both abs and chest: [Get workouts for Abs and Chest]",
+          "Try these exercises that work both legs and arms: [Get workouts for Legs and Arms]",
+          "These workouts are great for both back and shoulders: [Get workouts for Back and Shoulders]",
+          "For exercises targeting both abs and glutes, check out these workouts: [Get workouts for Abs and Glutes]"
+        ]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [
+          "Can you help me with workouts?",
+          "I'm looking for exercise suggestions",
+          "What kind of workouts do you have?"
+        ],
+        "responses": [
+          "Sure! I can help you with workout suggestions. Let me know what you're looking for.",
+          "I have a variety of workouts. Are you interested in a specific category, muscle group, or equipment?",
+          "Tell me more about what kind of workouts you're interested in, and I'll find the best options for you."
+        ]
+      }
+    ]
+  }
+  
